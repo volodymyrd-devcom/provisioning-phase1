@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methods>
+	<method name="EDIGW">
+		<!-- HTTP Parameters -->
+		<param name="url" value="http://localhost:8011/jbilling-sim/sim/edigw" />
+		<param name="connectTimeout" value="15000" />
+		<param name="readTimeout" value="15000" />
+		<param name="proxyHost" value="" />
+		<param name="proxyPort" value="" />
+		<!-- Common Parameters -->
+		<param name="networkOperatorId" value="1" />
+		<param name="templateId" value="1_customer1" />
+		<param name="postActionName" value="EgwPost" />
+		<!-- LOG4J Parameters -->
+		<param name="log4j" value="Log4j.xml" /> 
+	</method>
+	<method name="JSNIN">
+		<!-- HTTP Parameters -->
+		<param name="url" value="http://localhost:8011/jbilling-sim/sim/jsnin" />
+		<param name="connectTimeout" value="15000" />
+		<param name="readTimeout" value="15000" />
+		<param name="proxyHost" value="" />
+		<param name="proxyPort" value="" />
+		<!-- Common Parameters -->
+		<param name="networkOperatorId" value="1" />
+		<param name="templateId" value="1_customer1" />
+		<param name="postActionName" value="EgwPost" />
+		<!-- LOG4J Parameters -->
+		<param name="log4j" value="Log4j.xml" />
+	</method>
+	<method name="MMSC">
+		<!-- HTTP Parameters -->
+		<param name="host" value="localhost" />
+		<param name="port" value="8012" />
+		<param name="connectTimeout" value="15000" />
+		<param name="readTimeout" value="15000" />
+		<param name="proxyHost" value="" />
+		<param name="proxyPort" value="" />
+		<!-- Common Parameters -->
+		<!-- LOG4J Parameters -->
+		<param name="log4j" value="Log4j.xml" />
+	</method>
+	<method name="VSC">
+		<!-- HTTP Parameters -->
+		<param name="url" value="http://localhost:8011/jbilling-sim/sim/vsc" />
+		<param name="connectTimeout" value="15000" />
+		<param name="readTimeout" value="15000" />
+		<param name="proxyHost" value="" />
+		<param name="proxyPort" value="" />
+		<!-- Common Parameters -->
+		<param name="originHost" value="host" />
+		<param name="originModule" value="module" />
+		<param name="originId" value="id" />
+		<!-- LOG4J Parameters -->
+		<param name="log4j" value="Log4j.xml" />
+	</method>
+</methods>
